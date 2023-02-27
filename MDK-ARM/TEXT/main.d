@@ -25,7 +25,10 @@ text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
 text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
 text\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+text\main.o: ../Core/Inc/rtc.h
 text\main.o: ../Core/Inc/usart.h
 text\main.o: D:\Installation_Path\Keil\Core\ARM\ARMCC\Bin\..\include\stdio.h
 text\main.o: D:\Installation_Path\Keil\Core\ARM\ARMCC\Bin\..\include\string.h
