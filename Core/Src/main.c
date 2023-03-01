@@ -106,7 +106,9 @@ int main(void)
 		HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
 		printf("adasdasdas\r\n");
 		HAL_RTC_GetTime(&hrtc,&GetTime,RTC_FORMAT_BIN);
+		HAL_RTC_SetTime(&hrtc,&GetTime,RTC_FORMAT_BIN);
 		HAL_RTC_GetDate(&hrtc,&GetData,RTC_FORMAT_BIN);
+		HAL_RTC_SetDate(&hrtc,&GetData,RTC_FORMAT_BIN);
 		printf("%d.%d.%d-%d:%d:%d %d\r\n",2000+GetData.Year,GetData.Month,GetData.Date,GetTime.Hours,GetTime.Minutes,GetTime.Seconds,GetData.WeekDay);
   }
   /* USER CODE END 3 */
